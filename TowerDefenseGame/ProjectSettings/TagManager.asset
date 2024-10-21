@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Projectile
+  - Enemy
   layers:
   - Default
   - TransparentFX
@@ -40,4 +42,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: road
+    uniqueID: 3062697187
+    locked: 0
+  - name: enemy
+    uniqueID: 3741639419
+    locked: 0
+  - name: tower
+    uniqueID: 4293895577
     locked: 0
