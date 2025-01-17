@@ -9,10 +9,10 @@ public class EnemyMove : MonoBehaviour
 
     void Update()
     {
-        Beweeg();
+        EnemyBeweeg();
     }
 
-    void Beweeg()
+    void EnemyBeweeg()
     {
         if (waypoints.Length == 0) return;
         Transform targetWaypoint = waypoints[wayPointIndex];
